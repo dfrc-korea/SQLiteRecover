@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="0x00. UTIL">
+      <UniqueIdentifier>{87200eb9-236f-42c7-aa0b-98addd6ab4b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0x01. DATA">
+      <UniqueIdentifier>{a42aed80-3cb2-4350-b87d-6a55555e0cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0x02. Carver">
+      <UniqueIdentifier>{01aa4bad-d63a-4ac7-af1b-463842d8cddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0x00. UTIL\0x01. SQLite UTIL">
+      <UniqueIdentifier>{9ea03979-f48f-48b8-945d-f8a3c903a17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0x03. WAL">
+      <UniqueIdentifier>{fb6dd313-28e4-4682-8e03-b68b2612c0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0x00. UTIL\0x02. UTF8Checker">
+      <UniqueIdentifier>{4435ab2f-ee5b-4a96-9dcc-01f7af986c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0x04. JOURNAL">
+      <UniqueIdentifier>{764185f3-785a-4a54-bb0b-d99675e50c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0x05. Schema Package">
+      <UniqueIdentifier>{fa12c6d2-8fe0-4098-a47e-fa712ef2addc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteRecover.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteRecovery.h">
+      <Filter>0x02. Carver</Filter>
+    </ClInclude>
+    <ClInclude Include="UTIL.h">
+      <Filter>0x00. UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteExtractor.h">
+      <Filter>0x00. UTIL\0x01. SQLite UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="CppSQLite3U.h">
+      <Filter>0x00. UTIL\0x01. SQLite UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>0x00. UTIL\0x01. SQLite UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteDTO.h">
+      <Filter>0x01. DATA</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteCreator.h">
+      <Filter>0x00. UTIL\0x01. SQLite UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteWALRecover.h">
+      <Filter>0x03. WAL</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteWALDTO.h">
+      <Filter>0x03. WAL</Filter>
+    </ClInclude>
+    <ClInclude Include="UTF8Checker.h">
+      <Filter>0x00. UTIL\0x02. UTF8Checker</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteReader.h">
+      <Filter>0x02. Carver</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteJournalRecover.h">
+      <Filter>0x04. JOURNAL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteRecover.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UTIL.cpp">
+      <Filter>0x00. UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteExtractor.cpp">
+      <Filter>0x00. UTIL\0x01. SQLite UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="CppSQLite3U.cpp">
+      <Filter>0x00. UTIL\0x01. SQLite UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteCreator.cpp">
+      <Filter>0x00. UTIL\0x01. SQLite UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteWALRecover.cpp">
+      <Filter>0x03. WAL</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordCarving.cpp">
+      <Filter>0x02. Carver</Filter>
+    </ClCompile>
+    <ClCompile Include="UTF8Checker.cpp">
+      <Filter>0x00. UTIL\0x02. UTF8Checker</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteReader.cpp">
+      <Filter>0x02. Carver</Filter>
+    </ClCompile>
+    <ClCompile Include="PageRecover.cpp">
+      <Filter>0x02. Carver</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteJournalRecover.cpp">
+      <Filter>0x04. JOURNAL</Filter>
+    </ClCompile>
+    <ClCompile Include="SchemaPackage.cpp">
+      <Filter>0x05. Schema Package</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteRecovery.cpp">
+      <Filter>0x02. Carver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SQLiteRecover.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
